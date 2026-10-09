@@ -56,7 +56,10 @@ const f = (name: string) => `${id}-${name}`;
 
     <p class="form-error" data-form-error hidden></p>
     <button type="submit" class="btn btn-solid submit" data-submit><span data-submit-label>Submit</span></button>
-    <p class="fine">Dana uses your details only to answer you. No newsletters unless you ask.</p>
+    <p class="fine">
+      Dana uses your details only to answer you. No newsletters unless you ask.
+      {SITE.formgong.credit && <> Form by <a href="https://formgong.com">Formgong</a>.</>}
+    </p>
   </form>
 
   <div class="form-success" data-form-success hidden>
@@ -172,6 +175,10 @@ const f = (name: string) => `${id}-${name}`;
     font-size: 12px;
     line-height: 20px;
     opacity: 0.7;
+  }
+  .fine a {
+    text-decoration: underline;
+    text-underline-offset: 2px;
   }
   .form-error {
     padding: 10px 14px;

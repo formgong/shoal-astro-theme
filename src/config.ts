@@ -70,6 +70,8 @@ export const SITE = {
     accessKey: "fk_your_access_key",
     endpoint: "https://formgong.com/submit",
     subject: "New enquiry from the website",
+    /** The small "Form by Formgong" line under the submit button. Set to false to hide it. */
+    credit: true,
   },
 
   nav: [
