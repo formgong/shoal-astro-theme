@@ -13,7 +13,7 @@ export interface Props {
   noindex?: boolean;
 }
 
-const { title, description = SITE.description, image = "/og.png", noindex = false } = Astro.props;
+const { title, description = SITE.description, image = "/og.jpg", noindex = false } = Astro.props;
 const site = Astro.site ?? Astro.url;
 const fullTitle = title ? `${title} | ${SITE.name}` : `${SITE.name} | ${SITE.tagline}`;
 const canonical = new URL(Astro.url.pathname, site).href;

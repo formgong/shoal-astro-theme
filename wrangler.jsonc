@@ -4,5 +4,5 @@
   "name": "shoal",
   "main": "worker.js",
   "compatibility_date": "2026-09-01",
-  "assets": { "directory": "./dist", "binding": "ASSETS", "not_found_handling": "404-page", "run_worker_first": ["/*", "!/_astro/*", "!/img/*", "!/favicon.svg", "!/apple-touch-icon.png", "!/og.png", "!/robots.txt", "!/sitemap-index.xml", "!/sitemap-0.xml"] }
+  "assets": { "directory": "./dist", "binding": "ASSETS", "not_found_handling": "404-page", "run_worker_first": ["/*", "!/_astro/*", "!/img/*", "!/favicon.svg", "!/apple-touch-icon.png", "!/og.jpg", "!/robots.txt", "!/sitemap-index.xml", "!/sitemap-0.xml"] }
 }

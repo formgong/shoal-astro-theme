@@ -79,23 +79,23 @@ export const SITE = {
     { label: "Notes", href: "/#notes" },
   ],
 
-  hero: { image: "hero.webp", alt: "A boat crossing the green water of the sound between two wooded islands, seen from above" },
+  hero: { image: "hero.webp", alt: "Boats leaving white wakes between small wooded islands, seen from above" },
 
   servicesTitle: "Explore Dana's Services",
   tiles: [
-    { title: "Meet Dana", href: "/about/", image: "tile-kitchen.webp", alt: "A farmhouse kitchen with an oak island and a window onto the water" },
-    { title: "Buying", href: "/buying/", image: "tile-living.webp", alt: "A living room with a stone fireplace and glass doors open to a deck over the bay" },
-    { title: "Selling", href: "/selling/", image: "tile-aerial.webp", alt: "A shingled waterfront house on a wooded point, seen from above" },
-    { title: "Second Homes", href: "/buying/#second-homes", image: "tile-porch.webp", alt: "Two chairs on a cottage porch facing the bay at sunset" },
-    { title: "Client Stories", href: "/about/#stories", image: "tile-dining.webp", alt: "A long dining table by windows over the sea" },
-    { title: "Moving Help", href: "/selling/#moving", image: "tile-entry.webp", alt: "An entry hall with rain jackets, boots and an open front door" },
+    { title: "Meet Dana", href: "/about/", image: "tile-kitchen.webp", alt: "A bright kitchen with a white island, two stools and woven pendant lights" },
+    { title: "Buying", href: "/buying/", image: "tile-living.webp", alt: "A living room with a round fireplace and glass walls looking over the water" },
+    { title: "Selling", href: "/selling/", image: "tile-aerial.webp", alt: "A house among trees on the shore of a blue lake, seen from above" },
+    { title: "Second Homes", href: "/buying/#second-homes", image: "tile-porch.webp", alt: "Two wooden chairs under pine trees above a lake" },
+    { title: "Client Stories", href: "/about/#stories", image: "tile-dining.webp", alt: "A round dining table under a window with a view of the water" },
+    { title: "Moving Help", href: "/selling/#moving", image: "tile-entry.webp", alt: "An entry hall with a wooden bench, cushions and two forest prints" },
   ] as Tile[],
 
   meet: {
     pretitle: "Meet",
     text: "Dana grew up on Brannock Island and has sold homes on the Kestrel Sound islands for nineteen years. She knows which roads wash out in March, which wells run low in August and which ferry the commuters really catch.",
     image: "agent.webp",
-    alt: "Dana Whitlock at a kitchen table with a coffee and a folder of listings",
+    alt: "A hand holding a house key at an open front door",
   },
 
   areasTitle: "Islands",
@@ -106,7 +106,7 @@ export const SITE = {
       name: "Teal Harbor",
       blurb: "The island town: school, clinic and the busiest ferry dock.",
       image: "area-harbor.webp",
-      alt: "Fishing boats and sailboats in the Teal Harbor marina under wooded hills",
+      alt: "Sailboats and motor yachts in a calm marina at dusk",
       body: [
         "Teal Harbor is where the islands do their errands. The marina, the clinic, the K–8 school and the Saturday market are all within a ten-minute walk of the ferry dock.",
         "Most homes are 1920s cottages and 1990s family houses on small lots. Waterfront here usually means a view across the marina rather than a private beach.",
@@ -123,7 +123,7 @@ export const SITE = {
       name: "Brannock Island",
       blurb: "Forest, farms and long gravel roads. Quiet all winter.",
       image: "area-ferry.webp",
-      alt: "A car ferry arriving at the Brannock Island landing under dark green hills",
+      alt: "A ferry entering the harbour between two stone breakwaters",
       body: [
         "Brannock is the biggest island and the least built up. Many properties are five acres or more, with wells and septic systems, so inspections matter more than the listing photos.",
         "The north shore has the sunsets and the steep driveways. The south end has the farms, the flat land and the best soil for a garden.",
@@ -140,7 +140,7 @@ export const SITE = {
       name: "Larkspur Point",
       blurb: "The lighthouse, rocky shore and the deepest moorage.",
       image: "area-lighthouse.webp",
-      alt: "The white Larkspur Point lighthouse on a rocky point covered in dry grass",
+      alt: "A red and white lighthouse on a cliff above the sea",
       body: [
         "Larkspur Point is a peninsula at the south end of Fennick Island, joined to it by a single causeway. Its rocky shore and deep water make it the place for boat owners.",
         "Homes are few and change hands rarely. Most sales happen before they are listed, so tell me early if this is the place you want.",
@@ -155,9 +155,9 @@ export const SITE = {
     {
       slug: "fennick-island",
       name: "Fennick Island",
-      blurb: "Wildflower bluffs, pebble beaches and a mountain view.",
+      blurb: "Sea thrift on the bluffs, pebble beaches, open water.",
       image: "area-meadow.webp",
-      alt: "Yellow wildflowers on a bluff above a pebble beach with mountains on the horizon",
+      alt: "Pink sea thrift on a cliff above the ocean",
       body: [
         "Fennick faces east, towards the mountains, and its bluffs are covered in wildflowers from May to July. Many homes here are second homes that the owners let in summer.",
         "The bluffs are beautiful and they move. Before buying near the edge, read the geotechnical report and ask how far the bank has retreated in the last twenty years.",
@@ -181,7 +181,7 @@ export const SITE = {
       category: "Buying",
       date: "2026-09-18",
       image: "blog-ferry.webp",
-      alt: "A ferry crossing the sound at dawn",
+      alt: "A ferry crossing the sound at dusk",
       body: [
         "On the islands, distance is measured in sailings, not miles. A buyer who commutes to the mainland three days a week will pay for a house that makes the 5:40 boat without a car.",
         "Look at the sold prices of the last two years and you will see it: homes within a ten-minute walk of the Teal Harbor dock sell for more per square foot than larger homes on Brannock's north shore.",
@@ -195,7 +195,7 @@ export const SITE = {
       category: "Inspections",
       date: "2026-08-27",
       image: "blog-inspection.webp",
-      alt: "Hands holding a clipboard and a flashlight next to an old window frame",
+      alt: "A small wooden house model next to a magnifying glass",
       body: [
         "A general inspection is a good start. On the islands, add four checks: a well flow and water quality test, a septic inspection with a pump-out, a bluff report for any home near a bank, and a look at metal that salt air has eaten.",
         "The well test is the one buyers skip most often and regret most. A shared well needs a written agreement; ask to see it before you make an offer.",
@@ -209,7 +209,7 @@ export const SITE = {
       category: "Selling",
       date: "2026-07-30",
       image: "blog-market.webp",
-      alt: "A farmers market stall with apples, honey and flowers",
+      alt: "A pile of red apples",
       body: [
         "Summer brings visitors who fall for the islands on a sunny day. Winter brings people who have already decided to move. They make fewer offers, and fewer of those offers fall through.",
         "Show the house the way it will be lived in: heat on, lamps lit, firewood stacked, the drive clear. Photograph it on the one clear day of the week, even if you wait for it.",
@@ -222,7 +222,7 @@ export const SITE = {
     title: "Work With Dana",
     text: "From the first viewing to the day you get the keys, you will know what is happening and why. Calls are answered the same day.",
     image: "cta.webp",
-    alt: "A white clapboard house with a porch among oak trees next to the water",
+    alt: "A white two-storey house with a front porch",
   },
 
   footerText:

@@ -44,10 +44,27 @@ The key is public by design: it only lets visitors send messages to your form. S
 
 `npm run build` produces a static site in `dist/` that any static host can serve. Set `url` in `src/config.ts` first so canonical links, the sitemap and the form redirect point at your domain. On Vercel or Netlify, set `PUBLIC_FORMGONG_ACCESS_KEY` in the project's build environment variables: the key is read at build time. The Deploy to Cloudflare button stores it as a Worker secret instead, and `worker.js` puts it into the form as each page is served.
 
-## Images
+## Photos
 
-The photographs were generated for this theme with FLUX.2 [klein] 4B (Apache 2.0) on Cloudflare Workers AI. Replace them with photos of your own listings and area.
+The photographs in `public/img/` are from [Unsplash](https://unsplash.com) and are under the [Unsplash License](https://unsplash.com/license), **not** the MIT licence of the code: free to use, but not to sell on their own. Replace them with photos of your own listings and area. Thank you to the photographers:
+
+- `hero.webp`: [Daniel R.](https://unsplash.com/photos/boats-speeding-through-a-blue-ocean-with-islands-ZdbrRlQqPWc)
+- `tile-kitchen.webp`: [Jennie Wilson](https://unsplash.com/photos/a-kitchen-with-a-center-island-and-two-stools-ItvZqtoDjgc)
+- `tile-living.webp`: [Mahdis Mousavi](https://unsplash.com/photos/view-of-a-living-room-and-fireplace-inOX4reNle8)
+- `tile-aerial.webp`: [Keymini](https://unsplash.com/photos/a-house-nestled-among-trees-beside-a-vibrant-blue-lake-SifYeCZHacM)
+- `tile-porch.webp`: [Brian Lundquist](https://unsplash.com/photos/2-white-plastic-armchairs-on-brown-sand-during-daytime-eOZ39hS-wYk)
+- `tile-dining.webp`: [Cindy Fogg](https://unsplash.com/photos/a-dining-room-with-a-table-and-chairs-aq83Sjs8snA)
+- `tile-entry.webp`: [Clay Banks](https://unsplash.com/photos/wooden-bench-with-pillows-below-forest-artwork-ka3Gq_CYz-0)
+- `area-harbor.webp`: [XIBEI JIA](https://unsplash.com/photos/white-and-blue-boat-on-sea-under-gray-sky-zZZOAreIhmw)
+- `area-ferry.webp`: [Uta Scholl](https://unsplash.com/photos/green-and-white-ship-on-sea-under-gray-sky-during-daytime-fNkQB4MgHlI)
+- `area-lighthouse.webp`: [Valentin](https://unsplash.com/photos/a-lighthouse-stands-proudly-overlooking-the-ocean-SVjNWsDKEBk)
+- `area-meadow.webp`: [Bernd Dittrich](https://unsplash.com/photos/small-pink-flowers-bloom-on-a-cliff-overlooking-the-ocean-tyu80YcNVNY)
+- `agent.webp`: [Jakub Żerdzicki](https://unsplash.com/photos/a-hand-holding-a-key-to-a-door-3HfGnyPfWqQ)
+- `cta.webp`: [Roger Starnes Sr](https://unsplash.com/photos/white-house-with-front-porch-goydGbh4SgU)
+- `blog-ferry.webp`: [Gantavya Bhatt](https://unsplash.com/photos/a-large-boat-traveling-across-a-large-body-of-water-ip-hoUuoihI)
+- `blog-inspection.webp`: [Sasun Bughdaryan](https://unsplash.com/photos/magnifying-glass-over-a-wooden-house-model-HvmqfefQwYw)
+- `blog-market.webp`: [engin akyurt](https://unsplash.com/photos/a-pile-of-red-apples-sitting-on-top-of-each-other-yiHeWtjXuas)
 
 ## License
 
-MIT. Use it for your own site or for clients. The "Theme Shoal by Formgong" credit in the footer is optional.
+The code is MIT. Use it for your own site or for clients. The photos are under the Unsplash License (see above). The "Theme Shoal by Formgong" credit in the footer is optional.

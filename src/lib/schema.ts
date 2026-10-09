@@ -15,7 +15,7 @@ export function agentJsonLd(site: URL) {
     url: new URL("/", site).href,
     telephone: SITE.phone.tel,
     email: SITE.email,
-    image: new URL("/og.png", site).href,
+    image: new URL("/og.jpg", site).href,
     address: {
       "@type": "PostalAddress",
       streetAddress: address.street,
