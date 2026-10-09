@@ -99,6 +99,8 @@ button {
   line-height: 56px;
 }
 .h-card {
+  font-family: var(--serif);
+  font-weight: 340;
   font-size: 26px;
   line-height: 32px;
 }
