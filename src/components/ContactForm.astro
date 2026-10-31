@@ -7,6 +7,7 @@
  * on the page. The success state is shown ONLY when the server answers { success: true }.
  */
 import { SITE } from "../config";
+import { reviewPageUrl } from "../lib/review-page";
 
 interface Props {
   /** Prefix for the field ids, so the form can appear twice on one page. */
@@ -18,6 +19,7 @@ const PLACEHOLDER_KEY = "fk_your_access_key";
 const accessKey = import.meta.env.PUBLIC_FORMGONG_ACCESS_KEY || SITE.formgong.accessKey;
 const endpoint = import.meta.env.PUBLIC_FORMGONG_ENDPOINT || SITE.formgong.endpoint;
 const redirect = new URL("/thanks/", Astro.site ?? Astro.url).href;
+const reviewPage = await reviewPageUrl(accessKey, endpoint, Astro.site);
 const showKeyNotice = import.meta.env.DEV && accessKey === PLACEHOLDER_KEY;
 const f = (name: string) => `${id}-${name}`;
 ---
@@ -58,7 +60,7 @@ const f = (name: string) => `${id}-${name}`;
     <button type="submit" class="btn btn-solid submit" data-submit><span data-submit-label>Submit</span></button>
     <p class="fine">
       Dana uses your details only to answer you. No newsletters unless you ask.
-      {SITE.formgong.credit && <> Form by <a href="https://formgong.com">Formgong</a>.</>}
+      {SITE.formgong.credit && <> Form by <a href={reviewPage}>Formgong</a>.</>}
     </p>
   </form>
 

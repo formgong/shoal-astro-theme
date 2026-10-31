@@ -34,6 +34,8 @@ npm run dev
 
 The key is public by design: it only lets visitors send messages to your form. Spam is filtered with a hidden honeypot field.
 
+**The Formgong credit links your review page.** With a real access key, the build asks Formgong once (`POST https://formgong.com/api/review-page` with the key and your site's `url`). Formgong makes a public review page for your site the first time, where your clients can read and leave reviews, and the "Formgong" link next to the form points there. You can switch the page off in the Formgong dashboard (Reviews → your site → Settings), or change the link in `src/components/ContactForm.astro`. With the placeholder key or another form backend nothing is sent and the link goes to formgong.com.
+
 ## Edit the content
 
 - `src/config.ts`: everything on the home page, the island guides (`areas`) and the notes (`notes`).
